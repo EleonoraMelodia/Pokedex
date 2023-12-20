@@ -1,0 +1,84 @@
+body {
+  background: url("./assets/background_light.png");
+}
+
+#main_container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 50px;
+}
+
+.poke_nav {
+  display: flex;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: medium;
+}
+
+a:hover {
+  font-weight: bolder;
+  font-size: larger;
+  color: #3cf313;
+}
+
+.nav_info {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.nav_auth {
+  color: #3498db;
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+
+.pokemon_card {
+  margin: 50px;
+  background: linear-gradient(to bottom, #98caeb, #8fe088);
+  border-radius: 20px;
+  padding: 20px;
+  width: 200px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img_container {
+  display: flex;
+  justify-content: center;
+}
+
+.text_container {
+  display: flex;
+flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.paragraph_description {
+  display: flex;
+  flex-direction: column;
+}
+
+.skills_span {
+  display: flex;
+  gap: 5px;
+}
+
+.images {
+  width: 150px;
+}
