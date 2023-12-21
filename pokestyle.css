@@ -1,5 +1,12 @@
 body {
-  background: url("./assets/background_light.png");
+  font-family: "Merienda";
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: url("./assets/background2.png") no-repeat center center fixed;
+  background-size: cover;
 }
 
 #main_container {
@@ -7,13 +14,34 @@ body {
   width: 100%;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 20px;
+  padding: 40px;
   gap: 50px;
 }
 
 .poke_nav {
+  font-weight: bolder;
   display: flex;
   width: 100%;
+  position: relative;
+}
+
+.nav_info {
+  display: flex;
+  justify-content: start;
+  gap: 20px;
+}
+
+.nav_auth {
+  color: #3498db;
+  display: flex;
+  position: absolute;
+  right: 20px;
+  gap: 20px;
+}
+
+#logo{
+  display: inline-block;
+  width: 100px;
 }
 
 ul {
@@ -32,22 +60,10 @@ a:hover {
   color: #3cf313;
 }
 
-.nav_info {
-  display: flex;
-  justify-content: start;
-  gap: 20px;
-}
-
-.nav_auth {
-  color: #3498db;
-  display: flex;
-  justify-content: end;
-  gap: 20px;
-}
 
 .pokemon_card {
   margin: 50px;
-  background: linear-gradient(to bottom, #98caeb, #8fe088);
+  background: linear-gradient(to bottom, #ffff, #88cde0);
   border-radius: 20px;
   padding: 20px;
   width: 200px;
@@ -65,7 +81,7 @@ a:hover {
 
 .text_container {
   display: flex;
-flex-wrap: wrap;
+  flex-wrap: wrap;
   flex-direction: column;
 }
 
@@ -80,5 +96,5 @@ flex-wrap: wrap;
 }
 
 .images {
-  width: 150px;
+  width: 50%;
 }
