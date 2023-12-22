@@ -19,10 +19,11 @@ body {
 }
 
 .poke_nav {
+  align-items: center;
   font-weight: bolder;
   display: flex;
   width: 100%;
-  position: relative;
+
 }
 
 .nav_info {
@@ -39,8 +40,8 @@ body {
   gap: 20px;
 }
 
-#logo{
-  display: inline-block;
+#logo {
+
   width: 100px;
 }
 
@@ -54,12 +55,18 @@ a {
   font-size: medium;
 }
 
+#search_bar {
+  padding: 5px;
+  border-radius: 20px;
+  background-color: #c4dff1;
+  border-color: aliceblue;
+}
+
 a:hover {
   font-weight: bolder;
   font-size: larger;
   color: #3cf313;
 }
-
 
 .pokemon_card {
   margin: 50px;
